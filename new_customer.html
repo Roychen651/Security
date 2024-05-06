@@ -1,0 +1,27 @@
+<!-- new_customer.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Customer</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto mt-8">
+        <h1 class="text-2xl font-bold mb-4">New Customer</h1>
+        <form id="newCustomerForm" class="max-w-md">
+            <div class="mb-4">
+                <label for="customerName" class="block text-gray-700">Customer Name</label>
+                <input type="text" id="customerName" name="customerName" class="form-input mt-1 block w-full">
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add Customer</button>
+        </form>
+    </div>
+    <!-- Include Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
+    <!-- Include your JavaScript file -->
+    <script src="new_customer.js"></script>
+</body>
+</html>
